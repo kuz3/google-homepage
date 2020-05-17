@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Google </title>
+        <style>
+            body {
+                font-family: arial,sans-serif;
+                background: #fff;
+                font-size: small;
+                height: 100%;
+                margin: 0;
+            }
+            .MAJORDIV {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                min-height: 100%;
+                display: block;
+            }
+            .innerdiv {
+
+                height: 233px;
+            }
+            .middlediv {
+                height: 118px;
+                display: block;
+            }
+            .corona {
+                margin-top: 12px;
+                display: block;
+                text-align: center;
+            }
+            .logo {
+                padding-top: 109px;
+
+
+                text-align: center;
+                text-align: -webkit-center;
+            }
+            .searchformdivtest {
+                margin-top: 0;
+                position: absolute;
+                min-width: 980px;
+                z-index: 127;
+                width: 100%;
+                display: block;
+            }
+            .abovesearchtest {
+                margin-top: -20px;
+                min-width: 980px;
+                height: 64px;
+                min-width: 980px;
+                height: 64px;
+                display: block;
+            }
+            .form {
+                overflow: visible;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+                margin: 0 auto;
+                margin-top: -37px;
+                height: 34px;
+                width: 582px;
+                padding: 5px 8px 0px 16px;
+                display: block;
+                /* the flex keeps the text to the left */
+                flex: 1;
+                flex-wrap: wrap;
+                display: flex;
+
+                border: 1px solid #dfe1e5;
+                border-radius: 24px;
+                font-size: 16px;
+                z-index: 3;
+                border-color: rgba(223,225,229,0);
+                box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+                background: #fff;
+                text-align: center;
+
+            }
+            .innerformdivtest {
+                flex: 1;
+                display: flex;
+                padding: 5px 8px 0 16px;
+                padding-left: 14px;
+            }
+            .littlesearchimage {
+                display: flex;
+                align-items: center;
+                padding-right: 13px;
+                margin-top: -5px;
+            }
+            .insidelittlesearchimage {
+                margin: auto;
+                display: block;
+            }
+            .insidetheinside {
+                margin-top: 3px;
+                color: #9AA0A6;
+                height: 20px;
+                width: 20px;
+                /* test commenting out below if problems */
+                display: inline-block;
+                fill: currentColor;
+                line-height: 24px;
+                position: relative;
+            }
+            .testsvg {
+                display: block;
+                height: 100%;
+                width: 100%;
+                color: #9AA0A6;
+                line-height: 24px;
+            }
+            .newformdivtest {
+                display: flex;
+                flex: 1;
+                flex-wrap: wrap;
+            }
+            .rightabovesearch {
+
+                color: transparent;
+                flex: 100%;
+                white-space: pre;
+
+
+                font: 16px arial,sans-serif;
+
+                line-height: 34px;
+
+                height: 34px !important;
+
+            }
+            .searchform {
+                background-color: transparent;
+                border: none;
+                margin: 0;
+                padding: 0;
+                color: rgba(0,0,0,.87);
+                word-wrap: break-word;
+                outline: none;
+                display: flex;
+                flex: 100%;
+                -webkit-tap-highlight-color: transparent;
+                margin-top: -37px;
+
+                font: 16px arial,sans-serif;
+                line-height: 34px;
+                height: 34px !important;
+
+                -webkit-writing-mode: horizontal-tb !important;
+                text-rendering: auto;
+                letter-spacing: normal;
+
+                word-spacing: normal;
+                text-transform: none;
+                text-indent: 0px;
+                text-shadow: none;
+
+                text-align: start;
+                -webkit-appearance: textfield;
+                -webkit-rtl-ordering: logical;
+                cursor: text;
+
+                color: ;
+            }
+            #searchentry {
+                padding: 0 0 10px 0;
+                /*
+                width: 582px;
+                */
+                text-align: -webkit-center;
+            }
+            .bigbuttondiv {
+                /*
+                width: 571px;
+                height: 70px;
+
+                */
+                padding-top: 18px;
+                top: 53px;
+                z-index: 0;
+                display: block;
+            }
+            .centerbutton {
+                display: block;
+                text-align: -webkit-center;
+            }
+            .buttondiv {
+                text-align: center;
+            }
+
+            .googlebuttons {
+
+                text-align: center;
+                background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+                background-color: #f2f2f2;
+                border: 1px solid #f2f2f2;
+                border-radius: 4px;
+                color: #5F6368;
+                font-family: arial,sans-serif;
+                font-size: 14px;
+                margin: 11px 4px;
+                padding: 0 16px;
+                line-height: 27px;
+                height: 36px;
+                min-width: 54px;
+                cursor: pointer;
+                user-select: none;
+                display: inline-block;
+                text-align: -webkit-center;
+                /* adding more here */
+                -webkit-appearance: push-button;
+                white-space: pre;
+                align-items: flex-start;
+
+                letter-spacing: normal;
+                word-spacing: normal;
+                text-transform: none;
+                text-indent: 0px;
+                text-shadow: none;
+                display: inline-block;
+
+                -webkit-rtl-ordering: logical;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="MAJORDIV"> <!-- container for all -->
+            <div class="innerdiv"> <!-- actually close this after logo -->
+                <div class="logo">
+                    <img src="googlelogo.png" alt="Google" style="height: 92px;
+            width: 272px;"> </img>
+                </div>
+            </div>
+            <div class="middle-div"> </div>  <!-- between logo and searchbar -->
+            <div class="corona"></div> <!-- not sure why this comes before searchbar yet just keep adding css -->
+            <div class="searchformdivtest">
+                <div class="abovesearchdivtest"> </div> <!--another test div-->
+                <div class="form">
+                    <div class="innerformdivtest">
+                        <div class="littlesearchimage">
+                            <div class="insidelittlesearchimage">
+                                <span class="insidetheinside">
+                                    <!-- actual google code below -->
+                                    <svg class="testsvg" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                                </span>
+
+                            </div>
+                        </div>
+                        <div class="newformdivtest">
+                            <div class="rightabovesearch"> </div>
+                            <!--
+                            <form class="searchform" action="/action_page.php">
+                              <input type="text" id="searchentry" name="Search" value="Search">
+                              <input type="submit" value="Submit">
+                            </form>
+                            -->
+                              <input class="searchform"  name="Search" value="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--this is where the dropdown would go -->
+            <div class="bigbuttondiv">
+                <div class="buttondiv">
+                    <center class="centerbutton">
+                        <button type="button" class="googlebuttons" >Google Search</button>
+                        <button type="button" class="googlebuttons">I'm Feeling Lucky!</button>
+                    </center>
+                </div>
+            </div>
+
+            <div class="corona">
+                <a href="https://www.google.com/url?q=https://safety.google/securitytips-covid19/%3Futm_source%3DGoogleUS%26utm_medium%3DDesktop%26utm_campaign%3DSafetyCenter%26utm_term%3DScams%26utm_content%3DEveryone&amp;source=hpp&amp;id=19017835&amp;ct=3&amp;usg=AFQjCNEtkQE5LewUic7cMNYVcZJiDaNZGw&amp;sa=X&amp;ved=0ahUKEwiOhLT1xLnpAhUHpp4KHatWBcYQ8IcBCBE" rel="nofollow">Helpful tips to avoid COVID-19 online scams</a>
+            </div> <!-- not sure why this comes before searchbar yet just keep adding css -->
+        </div>
+    </body>
+</html>
